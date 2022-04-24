@@ -1,0 +1,136 @@
+body{
+    margin:0px;
+    background-color: beige;
+    z-index: 2;
+}
+#login-form{
+
+    padding : 5px 10px 5px;
+}
+.wrap{
+    display: flex;
+    position: relative;
+    transform: translateY(-65px);
+    row-gap: 20px;
+    height: 100%;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+
+}
+.form{
+    position: relative;
+    text-align: center;
+}
+#hyper-link{
+    margin-top:5px;
+    margin-left:10px;
+}
+.hidden {
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+
+
+body,html{
+   height: 100%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0px;
+}
+
+ .background_img{
+    content: "";
+    position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    opacity: 0.6;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+} 
+#currentClock{
+    font-size: 75px;
+    margin: 10px;
+    
+}
+#famous-saying{
+    position: absolute;
+    bottom: -45px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0 10px;
+}
+#weather{
+    position: absolute;
+    top:85px;
+    right: 20px;
+
+}
+#weather img{
+
+    transform: translate(-60%,-10%);
+}
+#weather span{
+        font-weight: bold;
+        text-align: center;
+        font-size:20px;
+}
+#greeting{
+    margin: 5px 0;
+    padding: 0 10px;
+}
+#todo-form {
+ width: 500px;
+ text-align: center;
+}
+input{
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 3px solid black;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    opacity: 1.0;
+    color: black;
+}
+#todo-form input{
+    height: 24px;
+    font-size: 24px;
+    padding-left: 10px;
+    text-align: center;
+}
+ul {
+    display: block;
+    width: auto;
+}
+li{
+    display: grid;
+    grid-auto-rows: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    margin-bottom: 5px;
+
+}
+li button{
+    border-radius: 4px;
+    border: 2px solid lightblue;
+    margin:0;
+    padding:0;
+    justify-self: center;
+    align-self: center;;
+}
+li button:hover{
+   background-color: lightblue;
+}
